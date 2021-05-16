@@ -1,0 +1,15 @@
+delivery = {
+    street: tstr, ? number: uint, city //
+    po-box: uint, city //
+    coord: struct-coord
+}
+
+city = (
+    city-name: tstr,
+    zip-code: uint
+)
+struct-coord = {
+    latitude : float,
+    longitude: float
+}
+

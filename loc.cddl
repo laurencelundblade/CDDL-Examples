@@ -1,0 +1,14 @@
+place_locations = {
+   * $$more_places
+}
+
+
+$$more_places //= (
+    addr:uint 
+)
+
+
+$$more_places //= (
+    airport: tstr
+)
+

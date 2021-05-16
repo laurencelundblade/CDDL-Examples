@@ -1,0 +1,9 @@
+address /= po-box-tag
+address /= loc-tag
+
+loc-type = [lat: float, long: float]
+loc-tag = #6.70000(loc-type)
+
+po-box = [box-num: uint, city: tstr]
+po-box-tag = #6.70001(po-box)
+
